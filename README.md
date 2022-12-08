@@ -1,6 +1,6 @@
 # short-reverse-shellcode
 
-A pretty short(301 bytes) fully functional TCP reverse shellcode.
+A pretty short(300 bytes) fully functional TCP reverse shellcode.
 C code is a loader, main shellcode is in the asm braces
 
 Note: shellcode assumes WSAStartup is already called by the whatever vulnerable program, because it probably is.
